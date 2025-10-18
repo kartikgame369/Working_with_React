@@ -8,17 +8,20 @@
 // paraent and clild class
 // reactelement(object )
 // at the end it will convert into html and show on the screen
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const paraent = React.createElement("div",
     {id:"paraent"},
     [
         React.createElement("div",{id:"child1"},
-        [React.createElement("h1",{},"hello its h1 tag "),
-            React.createElement("h2",{},"hello its h2 tag")
+        [React.createElement("h1",{},"hi there is no change  "),
+            React.createElement("h2",{},"hii its working")
         ]
     ),
     React.createElement("div",{id:"child2"},
-        [React.createElement("h3",{},"hello its h3 tag "),
-            React.createElement("h4",{},"hello its h4 tag")
+        [React.createElement("h3",{},"i importated the react  "),
+            React.createElement("h4",{},"type = module for error"),
         ]
     )
     ]

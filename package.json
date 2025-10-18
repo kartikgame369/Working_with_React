@@ -1,0 +1,30 @@
+{
+  "name": "react_16days",
+  "version": "1.0.0",
+  "description": "this is react working in the holidays ",
+  "keywords": [
+    "React",
+    "Javascript",
+    "html",
+    "css"
+  ],
+  "homepage": "https://github.com/kartikgame369/Working_with_React#readme",
+  "bugs": {
+    "url": "https://github.com/kartikgame369/Working_with_React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikgame369/Working_with_React.git"
+  },
+  "license": "ISC",
+  "author": "Kartik Game",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "parcel": "^2.16.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
