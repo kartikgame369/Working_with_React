@@ -1,10 +1,9 @@
-
-
-import react from "react"
-import reactDOM from "react-dom/client"
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 // React Element
+const heading = React.createElement("h1", { id: "heading" }, "Hi, it's React 3rd part");
 
-const heading = React.createElement("h1",{id:"heading"},"hii its react 3part");
-const root = React.createRoot(document.getElementById("root"));
-root.render(heading)
+// Create Root
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(heading);
