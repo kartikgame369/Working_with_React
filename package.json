@@ -20,7 +20,9 @@
   "author": "Kartik Game",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build" : "parcel build index.html"
   },
   "dependencies": {
     "parcel": "^2.16.0",
