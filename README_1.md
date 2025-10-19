@@ -36,3 +36,15 @@
 // root.render(paraent);
 
 // // replaced but not appended[ root h1 = kartik is here ]
+# babel is coverting the js code 
+# babel is the javascript compiler 
+# html class but jsx is className
+# ATTRIBUTE  CAMEL CASE
+
+
+# react components 
+# everything in react is component
+# two type of component 
+# class based[old]  Funtional based components [New]
+# what is React funtional compoent its just a javascript funtions
+# component composition -> component inside the component 

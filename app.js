@@ -1,9 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// React Element
-const heading = React.createElement("h1", { id: "heading" }, "Hi, it's React 3rd part");
+const Title=()=>{
+    <h1 className="head" tabIndex="5">
+        there is  a title component
+         </h1> 
+};
 
-// Create Root
+const HeadingComponent = ()=>{
+    <div id="container">
+        <Title/>
+        <h1 className="heading">here is the heading one </h1>
+    </div>
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(<HeadingComponent/>);

@@ -47,5 +47,11 @@ caching - faster bulids
 image optimization also done in parcel
 
 
+# jsx 
+# react is different and jsx is different 
+# we can write react without jsx
+# jsx make esy to write the code 
+# react elemt and react component 
+
 
 
